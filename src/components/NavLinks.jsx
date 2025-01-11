@@ -18,6 +18,9 @@ function NavLinks({ closeMenu }) {
       <NavLink to="/Testimonials" className={linkClass} onClick={closeMenu}>
         Testimonials
       </NavLink>
+      <NavLink to="/About" className={linkClass} onClick={closeMenu}>
+        About Us
+      </NavLink>
       <NavLink to="Contact" className={linkClass} onClick={closeMenu}>
         Contact
       </NavLink>

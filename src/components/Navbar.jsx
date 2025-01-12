@@ -33,7 +33,7 @@ function NavBar() {
         </ul>
       </nav>
       <div className="bg-[#eee]">
-        <div className="md:hidden bg-[#eee] h-24 p-4 h-full flex flex-row-reverse justify-between items-center">
+        <div className="md:hidden bg-[#eee] h-24 p-4 flex flex-row-reverse justify-between items-center">
           <img src={logo} alt="Logo" className="w-[15%]" />
           <button
             onClick={() => setIsOpen((prev) => !prev)}

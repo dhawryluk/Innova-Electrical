@@ -8,11 +8,14 @@ const Gallery = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const res = await fetch("http://localhost:5000/gallery");
+        const res = await fetch("/api/gallery");
+        if (!res.ok) {
+          throw new Error("Network response was not ok");
+        }
         const data = await res.json();
         setImages(data);
       } catch (error) {
-        console.log("Error fetching data", error);
+        console.log("Error fetching gallery data", error);
       } finally {
         setLoading(false);
       }
@@ -33,7 +36,7 @@ const Gallery = () => {
       <h1 className="text-center text-3xl text-[#eee] my-6">
         Welcome to our Project Gallery
       </h1>
-      <div className="w-5/6 m-auto columns-1 sm:columns-2 md:columns-3 my-6 md:my-12 gap-4 overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div className="w-5/6 m-auto columns-1 sm:columns-2 md:columns-3 my-6 md:my-12 gap-4 overflow-hidden transition-shadow">
         {loading ? (
           <p className="text-center text-light">Loading...</p>
         ) : (

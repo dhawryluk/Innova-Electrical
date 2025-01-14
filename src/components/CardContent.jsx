@@ -1,5 +1,5 @@
 import KitchenProject from "../assets/galleryImages/KitchenProject.jpg";
-import cardImage1 from "../assets/galleryImages/Image10.jpg";
+import cardImage1 from "../assets/galleryImages/Image10rev.jpg";
 
 const CardContent = () => {
   return (
@@ -12,14 +12,21 @@ const CardContent = () => {
           />
           <h2 className="text-2xl text-center p-2">Commercial Projects</h2>
           <p className="text-justify w-5/6 m-auto font-semibold	pb-4 leading-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam metus
-            mi, fermentum eu faucibus at, malesuada et lectus. Morbi fermentum
-            vestibulum felis, at tempus augue tincidunt tempor. Curabitur
-            lobortis velit vitae eros semper efficitur et vel neque. Fusce porta
-            tortor ut sodales porttitor. Integer blandit fermentum leo, quis
-            vestibulum odio aliquam nec. Sed ut leo quis urna rutrum ultricies.
-            Donec at placerat metus. Sed in luctus erat. Maecenas pulvinar
-            lobortis dui sed dapibus.
+            With years of experience and a dedication to precision, Ray has
+            become a trusted expert in delivering cutting-edge electrical
+            solutions tailored to the unique needs of businesses and large-scale
+            developments. At Innova Electrical, Ray specializes in designing and
+            implementing efficient electrical systems for office complexes,
+            retail spaces, industrial facilities, and more. Whether it&apos;s
+            wiring for new construction, upgrading outdated systems, or ensuring
+            compliance with the latest safety standards, Ray&apos;s meticulous
+            attention to detail ensures every project is completed on time,
+            within budget, and to the highest standards. Renowned for his
+            innovative problem-solving and commitment to client satisfaction,
+            Ray is the go-to professional for businesses looking to power their
+            success with reliable, state-of-the-art electrical systems. Partner
+            with Ray and Innova Electrical to bring your commercial project to
+            life with expertise and excellence.
           </p>
         </div>
         <div className="bg-[#3a4750] text-[#eee] md:my-6">
@@ -29,14 +36,20 @@ const CardContent = () => {
           />
           <h2 className="text-2xl text-center">Residential Projects</h2>
           <p className="text-justify w-5/6 m-auto font-semibold	py-4 leading-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam metus
-            mi, fermentum eu faucibus at, malesuada et lectus. Morbi fermentum
-            vestibulum felis, at tempus augue tincidunt tempor. Curabitur
-            lobortis velit vitae eros semper efficitur et vel neque. Fusce porta
-            tortor ut sodales porttitor. Integer blandit fermentum leo, quis
-            vestibulum odio aliquam nec. Sed ut leo quis urna rutrum ultricies.
-            Donec at placerat metus. Sed in luctus erat. Maecenas pulvinar
-            lobortis dui sed dapibus.
+            With a passion for creating safe, reliable, and efficient electrical
+            systems, Ray specializes in bringing homes to life with tailored
+            solutions that meet the unique needs of every homeowner. From custom
+            lighting designs to complete rewiring, Ray&apos;s expertise spans
+            new home construction, renovations, and electrical upgrades. Whether
+            it&apos;s installing smart home systems, enhancing energy
+            efficiency, or troubleshooting existing issues, Ray delivers
+            top-notch workmanship with a focus on safety and quality. With years
+            of experience and a commitment to exceptional customer service, Ray
+            ensures every project is completed with care and precision, creating
+            homes that are both functional and beautifully lit. Choose Ray and
+            Innova Electrical for all your residential electrical needs and
+            experience the difference that expertise and attention to detail can
+            make.
           </p>
         </div>
       </div>

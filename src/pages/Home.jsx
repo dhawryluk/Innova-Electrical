@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import CardContent from "../components/CardContent";
 import Highlights from "../components/Highlights";
-import Reviews from "../components/ReviewList";
+import Reviews from "../components/ReviewListings";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <CardContent />
       <Highlights />
-      <Reviews />
+      <Reviews isHome="true" />
     </>
   );
 };

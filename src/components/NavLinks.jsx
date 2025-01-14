@@ -15,7 +15,7 @@ function NavLinks({ closeMenu }) {
       <NavLink to="/Gallery" className={linkClass} onClick={closeMenu}>
         Gallery
       </NavLink>
-      <NavLink to="/Testimonials" className={linkClass} onClick={closeMenu}>
+      <NavLink to="/Reviews" className={linkClass} onClick={closeMenu}>
         Testimonials
       </NavLink>
       <NavLink to="/About" className={linkClass} onClick={closeMenu}>

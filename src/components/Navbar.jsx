@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
-import logo from "../assets/images/innova1.png";
+import logo from "../assets/images/images/innova1.png";
 import { FaBars, FaX } from "react-icons/fa6";
 
 function NavBar() {

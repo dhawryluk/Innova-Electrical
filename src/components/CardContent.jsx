@@ -1,15 +1,26 @@
-import KitchenProject from "../assets/galleryImages/KitchenProject.jpg";
-import cardImage1 from "../assets/galleryImages/Image10rev.jpg";
+import KitchenProject from "../assets/images/galleryImages/KitchenProject.jpg";
+import cardImage1 from "../assets/images/galleryImages/Image10rev.jpg";
+import { Link } from "react-router";
 
 const CardContent = () => {
   return (
     <>
       <div className="grid lg:grid-cols-2 w-2/3 m-auto gap-6 my-6">
         <div className="grid bg-[#3a4750] m-auto text-[#eee] md:my-6">
-          <img
-            src={cardImage1}
-            className="bg-cover bg-center bg-no-repeat pb-6"
-          />
+          <img src={cardImage1} className="bg-cover bg-center bg-no-repeat" />
+          <p className="text-xs ml-2 italic">
+            Photo by{" "}
+            <Link to="https://34f.ca/" className="text-neon underline">
+              34F Design Inc
+            </Link>{" "}
+            and{" "}
+            <Link
+              to="https://www.upperleftphoto.com/"
+              className="text-neon underline"
+            >
+              Upper Left Photography
+            </Link>
+          </p>
           <h2 className="text-2xl text-center p-2">Commercial Projects</h2>
           <p className="text-justify w-5/6 m-auto font-semibold	pb-4 leading-6">
             With years of experience and a dedication to precision, Ray has

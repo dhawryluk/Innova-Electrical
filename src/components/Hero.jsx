@@ -1,4 +1,4 @@
-import hero from "../assets/images/hero.jpg";
+import hero from "../assets/images/images/hero.jpg";
 
 const Hero = () => {
   return (
@@ -13,8 +13,8 @@ const Hero = () => {
       <div className="bg-bgPrime py-6">
         <h3 className="border-t-2 border-b-2 border-neon text-light text-center m-auto w-2/3 py-4 px-6">
           OUR OBJECTIVE IS TO PROVIDE THE HIGHEST PROFESSIONAL ELECTRICAL WORK
-          BY ABIDING TO LEGAL STANDARDS AND KEEPING CUSTOMER'S PERSONAL WELFARE
-          AS OUR PRIMARY OBJECTIVE.
+          BY ABIDING TO LEGAL STANDARDS AND KEEPING CUSTOMER&apos;S PERSONAL
+          WELFARE AS OUR PRIMARY OBJECTIVE.
         </h3>
       </div>
     </>

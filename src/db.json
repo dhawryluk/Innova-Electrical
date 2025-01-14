@@ -41,53 +41,53 @@
   "gallery": [
     {
       "id": 1,
-      "name": "Upper Left Photography - Acuitas-1",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-1.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-1.jpg"
     },
     {
       "id": 2,
-      "name": "Upper Left Photography - Acuitas-2",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-2.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-2.jpg"
     },
     {
       "id": 3,
-      "name": "Upper Left Photography - Acuitas-3",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-3.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-3.jpg"
     },
     {
       "id": 4,
-      "name": "Upper Left Photography - Acuitas-4",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-4.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-4.jpg"
     },
     {
       "id": 5,
-      "name": "Upper Left Photography - Acuitas-5",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-5.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-5.jpg"
     },
     {
       "id": 6,
-      "name": "Upper Left Photography - Acuitas-6",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-6.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-6.jpg"
     },
     {
       "id": 7,
-      "name": "Upper Left Photography - Acuitas-7",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-7.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-7.jpg"
     },
     {
       "id": 8,
-      "name": "Upper Left Photography - Acuitas-8",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-8.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-8.jpg"
     },
     {
       "id": 9,
-      "name": "Upper Left Photography - Acuitas-9",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-9.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-9.jpg"
     },
     {
       "id": 10,
-      "name": "Upper Left Photography - Acuitas-10",
-      "image": "src/assets/galleryImages/Upper Left Photography - Acuitas-10.jpg"
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "src/assets/images/galleryImages/Upper Left Photography - Acuitas-10.jpg"
     }
   ]
 }

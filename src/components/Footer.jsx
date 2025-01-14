@@ -1,4 +1,5 @@
-import logo from "../assets/images/innova.png";
+import logo from "../assets/images/images/innova1.png";
+import { Link } from "react-router";
 import {
   FaFacebook,
   FaInstagram,
@@ -19,16 +20,22 @@ export const Footer = () => {
         </div>
         <div className="mb-2 md:mb-0 md:mt-6 flex gap-2 text-sm items-center justify-center self-end w-full">
           <FaRegCopyright />
-          <p className="text-md md:text-lg">2025 Innova Electrical Inc.</p>
+          <p className="text-md md:text-lg">2025 Innova Electrical Ltd.</p>
         </div>
         <div className="flex flex-col items-center">
           <h2 className="text-2xl text-center mb-4 font-bold">
             Follow our Socials
           </h2>
           <div className="flex gap-4">
-            <FaFacebook className="text-[#316FF6] text-3xl" />
-            <FaInstagram className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-3xl fill-white rounded-lg" />
-            <FaLinkedin className="text-[#0077B5] text-3xl" />
+            <Link to="https://www.facebook.com/InnovaElectrical/">
+              <FaFacebook className="text-[#316FF6] text-3xl" />
+            </Link>
+            <Link to="https://www.instagram.com/innovaelectrical/">
+              <FaInstagram className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-3xl fill-white rounded-lg" />
+            </Link>
+            <Link to="https://www.linkedin.com/in/ray-bergmann-8708aa7a/">
+              <FaLinkedin className="text-[#0077B5] text-3xl" />
+            </Link>
           </div>
         </div>
       </div>

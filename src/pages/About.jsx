@@ -1,6 +1,6 @@
-import Ray from "../assets/images/AiRay.png";
-import TSBC from "../assets/images/tsbc_logo.png";
-import redSeal from "../assets/images/redSeal.png";
+import Ray from "../assets/images/images/AiRay.png";
+import TSBC from "../assets/images/images/tsbc_logo.png";
+import redSeal from "../assets/images/images/redSeal.png";
 
 const About = () => {
   return (
@@ -9,15 +9,15 @@ const About = () => {
         <div className="">
           <h1 className="text-3xl text-center">Who is Innova Electrical?</h1>
           <p className="text-md text-justify p-4">
-            <p className="inline-block text-2xl text-neon">R</p>ay is the
-            proud owner of Innova Electrical, bringing decades of expertise and
+            <p className="inline-block text-2xl text-neon">R</p>ay is the proud
+            owner of Innova Electrical, bringing decades of expertise and
             dedication to every project. As a certified FSR Master Electrician{" "}
             <p className="inline-block text-neon">
               Certification #CEL010103379
             </p>{" "}
             and holder of TSBC - Technical Safety BC{" "}
-            <p className="inline-block text-neon">License #LEL0200120</p>{" "}
-            Ray combines top-tier credentials with a passion for delivering
+            <p className="inline-block text-neon">License #LEL0200120</p> Ray
+            combines top-tier credentials with a passion for delivering
             exceptional electrical services. Ray&apos;s commitment to excellence
             extends across both commercial and residential projects. Whether
             designing complex electrical systems for businesses or upgrading
@@ -32,7 +32,7 @@ const About = () => {
             every client.
           </p>
           <div className="grid grid-cols-2 p-4 justify-center items-center">
-          <img src={redSeal} className="size-fit" />
+            <img src={redSeal} className="size-fit" />
             <img src={TSBC} className="size-fit" />
           </div>
         </div>

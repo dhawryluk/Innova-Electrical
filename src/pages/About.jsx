@@ -1,4 +1,4 @@
-import Ray from "../assets/images/images/AiRay.png";
+import Ray from "/AiRay.png";
 import TSBC from "../assets/images/images/tsbc_logo.png";
 import redSeal from "../assets/images/images/redSeal.png";
 

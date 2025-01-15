@@ -1,26 +1,15 @@
 import { useState, useEffect } from "react";
+import data from "../db.json";
+import { FaBoltLightning } from "react-icons/fa6";
 
 const Gallery = () => {
-  const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(true);
   const [zoomImage, setZoomImage] = useState(null);
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
-    const fetchImages = async () => {
-      try {
-        const res = await fetch("/api/gallery");
-        if (!res.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await res.json();
-        setImages(data);
-      } catch (error) {
-        console.log("Error fetching gallery data", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchImages();
+    setImages(data.gallery);
+    setLoading(false);
   }, []);
 
   const handleClick = (image) => {
@@ -36,11 +25,13 @@ const Gallery = () => {
       <h1 className="text-center text-3xl text-[#eee] my-6">
         Welcome to our Project Gallery
       </h1>
-      <div className="w-5/6 m-auto columns-1 sm:columns-2 md:columns-3 my-6 md:my-12 gap-4 overflow-hidden transition-shadow">
-        {loading ? (
-          <p className="text-center text-light">Loading...</p>
-        ) : (
-          images.map((image, id) => (
+      {loading ? (
+        <div className="flex justify-center items-center h-screen">
+          <FaBoltLightning className="animate-pulse w-36 h-36 text-neon" />
+        </div>
+      ) : (
+        <div className="w-5/6 m-auto columns-1 sm:columns-2 md:columns-3 my-6 md:my-12 gap-4 overflow-hidden transition-shadow">
+          {images.map((image, id) => (
             <div
               key={id}
               onClick={() => handleClick(image)}
@@ -50,6 +41,7 @@ const Gallery = () => {
                 src={image.image}
                 className="w-full h-full object-cover rounded-lg"
                 alt={`Gallery image ${id}`}
+                loading="lazy"
               />
               <div className="absolute h-fit w-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p className="text-lg text-center italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 p-2">
@@ -57,9 +49,9 @@ const Gallery = () => {
                 </p>
               </div>
             </div>
-          ))
-        )}
-      </div>
+          ))}
+        </div>
+      )}
       {zoomImage && (
         <div
           className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center"

@@ -1,5 +1,5 @@
-import KitchenProject from "../assets/images/galleryImages/KitchenProject.jpg";
-import cardImage1 from "../assets/images/galleryImages/Image10rev.jpg";
+import KitchenProject from "/KitchenProject.jpg";
+import cardImage1 from "/Image10rev.jpg";
 import { Link } from "react-router";
 
 const CardContent = () => {

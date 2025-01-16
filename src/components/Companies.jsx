@@ -9,7 +9,7 @@ import Wise from "../assets/images/companies/Wise.png";
 
 const Companies = () => {
   return (
-    <div className="w-2/3 flex flex-col justify-center items-center m-auto bg-[#3a4750] rounded-xl p-4">
+    <div className="w-7/8 md:w-2/3 flex flex-col justify-center items-center m-auto bg-[#3a4750] rounded-xl p-4">
       <h2 className="text-2xl text-[#eee] text-center mb-4">
         Companies who choose to work with us!
       </h2>

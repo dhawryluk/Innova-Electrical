@@ -15,7 +15,7 @@ const ReviewListings = ({ isHome = false }) => {
   const reviewListings = isHome ? reviews.slice(0, 1) : reviews;
 
   return (
-    <div className="w-2/3 pt-6 m-auto text-light p-4">
+    <div className="w-7/8 md:w-2/3 pt-6 m-auto text-light p-4">
       {loading ? (
         <h2>Loading...</h2>
       ) : reviews.length > 0 ? (

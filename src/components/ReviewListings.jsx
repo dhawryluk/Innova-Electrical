@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ReviewListing from "./ReviewListing";
 import Button from "../components/Button";
-import data from "../db.json";
+import data from "../reviews.json";
 
 const ReviewListings = ({ isHome = false }) => {
   const [loading, setLoading] = useState(true);

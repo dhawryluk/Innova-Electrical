@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import data from "../db.json";
+import data from "../gallery.json";
 import { FaBoltLightning } from "react-icons/fa6";
 
 const Gallery = () => {

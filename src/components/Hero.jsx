@@ -1,9 +1,9 @@
-import hero from "/hero.jpg";
+import hero from "/pexels-caio-11331744.jpg";
 
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row bg-black bg-blend-lighten">
+      <div className="flex flex-col md:flex-row bg-bgSecondary bg-blend-lighten">
         <img src={hero} className="md:size-3/4 lg:size-2/3" />
         <h1 className="self-center text-center text-light font-bold text-lg sm:text-xl md:text-3xl lg:text-4xl p-6 md:leading-10">
           Providing exceptional service to the Greater Vancouver and North

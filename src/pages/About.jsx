@@ -32,8 +32,8 @@ const About = () => {
             every client.
           </p>
           <div className="grid grid-cols-2 p-4 justify-center items-center">
-            <img src={redSeal} className="size-fit" />
-            <img src={TSBC} className="size-fit" />
+            <img src={redSeal} />
+            <img src={TSBC} />
           </div>
         </div>
         <img src={Ray} className="rounded-xl my-6" />

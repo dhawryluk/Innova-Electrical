@@ -3,52 +3,107 @@
     {
       "id": 1,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-1.jpg"
+      "image": "/galleryImages/Acuitas-3.jpg"
     },
     {
       "id": 2,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-2.jpg"
+      "image": "/galleryImages/Acuitas-4.jpg"
     },
     {
       "id": 3,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-3.jpg"
+      "image": "/galleryImages/Acuitas-5.jpg"
     },
     {
       "id": 4,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-4.jpg"
+      "image": "/galleryImages/Acuitas-8.jpg"
     },
     {
       "id": 5,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-5.jpg"
+      "image": "/galleryImages/Acuitas-19.jpg"
     },
     {
       "id": 6,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-6.jpg"
+      "image": "/galleryImages/Acuitas-11.jpg"
     },
     {
       "id": 7,
-      "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-7.jpg"
+      "name": "Permanent RGB Christmas lights",
+      "image": "/galleryImages/xmas.jpg"
     },
     {
       "id": 8,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-8.jpg"
+      "image": "/galleryImages/Acuitas-22.jpg"
     },
     {
       "id": 9,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-9.jpg"
+      "image": "/galleryImages/Acuitas-23.jpg"
     },
     {
       "id": 10,
       "name": "34F Design Inc and Upper Left Photography",
-      "image": "/galleryImages/Acuitas-10.jpg"
+      "image": "/galleryImages/Acuitas-27.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Double vanities with wall sconces",
+      "image": "/galleryImages/bathroom.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Cannabis Culture with Zentec Interiors",
+      "image": "/galleryImages/cannabis.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Landscape lighting project",
+      "image": "/galleryImages/concrete.jpg"
+    },
+    {
+      "id": 14,
+      "name": "RGB landscape lighting",
+      "image": "/galleryImages/fenceLighting.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Gorgeous chandelier in this grand foyer",
+      "image": "/galleryImages/foyer.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Frameless TV with shelf lighting, fireplace by Urban Fireplaces",
+      "image": "/galleryImages/frameTV.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Custom Kitchen with Zentec Interiors and Alex Dampsey Design",
+      "image": "/galleryImages/kitchen.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Custom outdoor TV fireplace combo wall",
+      "image": "/galleryImages/outdoorFire.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Edison style bulbs island lighting",
+      "image": "/galleryImages/pendant.jpg"
+    },
+    {
+      "id": 20,
+      "name": "34F Design Inc and Upper Left Photography",
+      "image": "/galleryImages/undershelf.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Under cabinet plugs in Olympic Village",
+      "image": "/galleryImages/zebra.jpg"
     }
   ]
 }

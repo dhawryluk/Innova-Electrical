@@ -8,6 +8,9 @@ import {
 } from "react-icons/fa";
 
 export const Footer = () => {
+  const d = new Date();
+  let currentYear = d.getFullYear();
+
   return (
     <footer className="items-center bg-[#eee] p-6 mt-6">
       <div className="grid md:grid-cols-3 items-center w-full">
@@ -20,7 +23,9 @@ export const Footer = () => {
         </div>
         <div className="mb-2 md:mb-0 md:mt-6 flex gap-2 text-sm items-center justify-center self-end w-full">
           <FaRegCopyright />
-          <p className="text-md md:text-lg">2025 Innova Electrical Ltd.</p>
+          <p className="text-md md:text-lg">
+            {currentYear} Innova Electrical Ltd.
+          </p>
         </div>
         <div className="flex flex-col items-center">
           <h2 className="text-2xl text-center mb-4 font-bold">

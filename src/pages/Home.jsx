@@ -3,6 +3,7 @@ import CardContent from "../components/CardContent";
 import Highlights from "../components/Highlights";
 import Reviews from "../components/ReviewListings";
 import Companies from "../components/Companies";
+import Instagram from "../components/Instagram";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Highlights />
       <Reviews isHome="true" />
       <Companies />
+      <Instagram />
     </>
   );
 };

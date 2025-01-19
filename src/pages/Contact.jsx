@@ -47,7 +47,9 @@ const Contact = () => {
         onSubmit={sendEmail}
         className="h-screen w-5/6 md:w-2/3 m-auto flex flex-col gap-2 text-xl text-light"
       >
-        <h1 className="text-2xl text-center my-6">Get in touch!</h1>
+        <h1 className="text-2xl text-center my-6">
+          Schedule a Consultation or Request a Quote
+        </h1>
         <label>Name</label>
         <input
           type="text"

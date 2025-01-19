@@ -1,4 +1,4 @@
-import logo from "../assets/images/images/innova1.png";
+import logo from "../assets/images/images/innova.png";
 import { Link } from "react-router";
 import {
   FaFacebook,
@@ -38,7 +38,7 @@ export const Footer = () => {
             <Link to="https://www.instagram.com/innovaelectrical/">
               <FaInstagram className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-3xl fill-white rounded-lg" />
             </Link>
-            <Link to="https://www.linkedin.com/in/ray-bergmann-8708aa7a/">
+            <Link to="https://www.linkedin.com/in/ray-bergmann-a12303164/">
               <FaLinkedin className="text-[#0077B5] text-3xl" />
             </Link>
           </div>

@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        title: ["Roboto bold"],
+        body: ["Cabin Regular"],
+      },
       colors: {
         bgPrime: "#303841",
         bgSecondary: "#3A4750",

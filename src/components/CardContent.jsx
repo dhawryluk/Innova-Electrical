@@ -5,8 +5,8 @@ import { Link } from "react-router";
 const CardContent = () => {
   return (
     <>
-      <div className="grid lg:grid-cols-2 w-7/8 md:w-2/3 m-auto gap-6 my-6">
-        <div className="grid bg-[#3a4750] m-auto text-[#eee] md:my-6">
+      <div className="grid lg:grid-cols-2 w-full md:w-2/3 m-auto gap-6 my-6">
+        <div className="grid bg-[#3a4750] m-auto text-light md:my-6">
           <img src={cardImage1} className="bg-cover bg-center bg-no-repeat" />
           <p className="text-xs ml-2 italic">
             Photo by{" "}
@@ -22,7 +22,7 @@ const CardContent = () => {
             </Link>
           </p>
           <h2 className="text-2xl text-center p-2">Commercial Projects</h2>
-          <p className="text-justify w-5/6 m-auto font-semibold	pb-4 leading-6">
+          <p className="text-justify w-5/6 m-auto	pb-4 leading-6">
             With years of experience and a dedication to precision, Ray has
             become a trusted expert in delivering cutting-edge electrical
             solutions tailored to the unique needs of businesses and large-scale
@@ -40,13 +40,13 @@ const CardContent = () => {
             life with expertise and excellence.
           </p>
         </div>
-        <div className="bg-[#3a4750] text-[#eee] md:my-6">
+        <div className="bg-[#3a4750] text-light md:my-6">
           <img
             src={KitchenProject}
             className="bg-cover bg-center bg-no-repeat pb-4"
           />
           <h2 className="text-2xl text-center p-2">Residential Projects</h2>
-          <p className="text-justify w-5/6 m-auto font-semibold	pb-4 leading-6">
+          <p className="text-justify w-5/6 m-auto	pb-4 leading-6">
             With a passion for creating safe, reliable, and efficient electrical
             systems, Ray specializes in bringing homes to life with tailored
             solutions that meet the unique needs of every homeowner. From custom

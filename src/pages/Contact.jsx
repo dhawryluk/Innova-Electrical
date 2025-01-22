@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Modal from "react-modal";
-import logo from "/innova.png";
+import logo from "/innova_Revised.svg";
 
 // Set the modal's root element
 Modal.setAppElement("#root");
@@ -43,14 +43,14 @@ const Contact = () => {
 
   return (
     <div>
-      <img src={logo} alt="Logo" className="h-32 md:h-48 mt-6 m-auto" />
+      <img src={logo} alt="Logo" className="h-48 md:h-48 mt-6 m-auto" />
 
       <form
         ref={form}
         onSubmit={sendEmail}
         className="h-screen w-5/6 md:w-2/3 m-auto flex flex-col gap-2 text-xl text-light"
       >
-        <h1 className="text-2xl text-center my-6 md:my-12">
+        <h1 className="text-2xl text-center my-6">
           Schedule a Consultation or Request a Quote
         </h1>
         <label>Name</label>

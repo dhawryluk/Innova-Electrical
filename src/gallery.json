@@ -31,6 +31,11 @@
       "image": "/galleryImages/Acuitas-11.jpg"
     },
     {
+      "id": 7,
+      "name": "Google Nest in custom home",
+      "image": "/galleryImages/googleNest.jpg"
+    },
+    {
       "id": 8,
       "name": "34F Design Inc and Upper Left Photography",
       "image": "/galleryImages/Acuitas-22.jpg"
@@ -92,13 +97,28 @@
     },
     {
       "id": 20,
-      "name": "34F Design Inc and Upper Left Photography",
+      "name": "Custom home with Zentec Interiors and Alex Dampsey Design",
       "image": "/galleryImages/undershelf.jpg"
     },
     {
       "id": 21,
       "name": "Under cabinet plugs in Olympic Village",
       "image": "/galleryImages/zebra.jpg"
+    },
+    { 
+      "id": 22,
+      "name": "Custom home with Zentec Interiors and Alex Dampsey Design",
+      "image": "/galleryImages/marbleBathroom.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Custom home with Zentec Interiors and Alex Dampsey Design",
+      "image": "/galleryImages/pendant1.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Under cabinet lighting in this full kitchen reno",
+      "image": "/galleryImages/underCabinet.jpg"
     }
   ]
 }

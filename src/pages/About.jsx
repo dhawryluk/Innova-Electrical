@@ -9,28 +9,32 @@ const About = () => {
         <div className="">
           <h1 className="text-3xl text-center">Who is Innova Electrical?</h1>
           <p className="text-md text-justify p-4">
-            <p className="inline-block text-2xl text-neon">R</p>ay is the proud
-            owner of Innova Electrical, bringing decades of expertise and
-            dedication to every project. As a certified FSR Master Electrician{" "}
+            <p className="inline-block text-4xl text-neon font-mono">I</p>
+            <span>
+              nnova Electrical is a leading provider of electrical services,
+              bringing decades of expertise and dedication to every project. As
+              a certified FSR Master Electrician
+            </span>{" "}
             <p className="inline-block text-neon">
               Certification #CEL010103379
             </p>{" "}
             and holder of TSBC - Technical Safety BC{" "}
-            <p className="inline-block text-neon">License #LEL0200120</p> Ray
-            combines top-tier credentials with a passion for delivering
-            exceptional electrical services. Ray&apos;s commitment to excellence
-            extends across both commercial and residential projects. Whether
-            designing complex electrical systems for businesses or upgrading
-            home wiring, his focus on safety, innovation, and client
-            satisfaction sets him apart. Known for his hands-on approach and
-            attention to detail, Ray ensures every job is completed to the
-            highest industry standards. Outside the job site, Ray is passionate
-            about staying at the forefront of electrical advancements, regularly
-            updating his skills and certifications to align with evolving
-            technology and regulations. With a proven track record and a
-            reputation for reliability, Ray is dedicated to powering success for
-            every client.
+            <p className="inline-block text-neon">License #LEL0200120</p> Innova
+            Electrical combines top-tier credentials with a passion for
+            delivering exceptional electrical services. Their commitment to
+            excellence extends across both commercial and residential projects.
+            Whether designing complex electrical systems for businesses or
+            upgrading home wiring, their focus on safety, innovation, and client
+            satisfaction sets them apart. Known for their hands-on approach and
+            attention to detail, Innova Electrical ensures every job is
+            completed to the highest industry standards. Outside the job site,
+            they are passionate about staying at the forefront of electrical
+            advancements, regularly updating their skills and certifications to
+            align with evolving technology and regulations. With a proven track
+            record and a reputation for reliability, Innova Electrical is
+            dedicated to powering success for every client.
           </p>
+
           <div className="grid grid-cols-2 p-4 justify-center items-center">
             <img src={redSeal} />
             <img src={TSBC} />

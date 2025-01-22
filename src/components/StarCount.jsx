@@ -6,7 +6,7 @@ const StarCount = ({ review }) => {
   return (
     <div className="flex">
       {stars.map((_, index) => (
-        <FaStar key={index} className="text-[#e1ff00]" />
+        <FaStar key={index} className="text-neon" />
       ))}
     </div>
   );

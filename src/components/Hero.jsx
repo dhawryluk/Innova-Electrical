@@ -1,5 +1,5 @@
 import hero from "/shopHero.jpg";
-import logo from "/innova.png";
+import logo from "/innova_Revised.svg";
 
 const Hero = () => {
   return (
@@ -10,8 +10,8 @@ const Hero = () => {
           backgroundImage: `url('${hero}')`,
         }}
       >
-        <img src={logo} alt="Logo" className="h-56 mt-6" />
-        <h1 className="bg-bgPrime/60 flex md:self-end h-fit md:w-1/3 rounded-tl-xl text-center text-light font-bold text-lg sm:text-xl md:text-2xl lg:text-4xl p-6 md:leading-10">
+        <img src={logo} alt="Logo" className="h-96 md:h-72 md:mt-[-2em]" />
+        <h1 className="bg-bgPrime/60 flex md:self-end h-fit md:w-1/3 md:rounded-tl-xl text-center text-light font-bold text-lg sm:text-xl md:text-2xl lg:text-4xl p-6 md:leading-10">
           Servicing to the Greater Vancouver and North Okanagan regions since
           2009
         </h1>

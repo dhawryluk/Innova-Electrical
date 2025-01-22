@@ -26,18 +26,18 @@ function NavBar() {
 
   return (
     <>
-      <nav className="bg-[#eee] p-2 hidden md:flex md:justify-evenly">
+      <nav className="bg-light p-2 hidden md:flex md:justify-evenly">
         {/* <img src={logo} alt="Logo" className="h-24" /> */}
         <ul className="hidden md:flex text-lg font-bold gap-6">
           <NavLinks closeMenu={closeMenu} />
         </ul>
       </nav>
-      <div className="bg-[#eee]">
-        <div className="md:hidden bg-[#eee] p-4 flex flex-row-reverse justify-between items-center">
+      <div className="bg-light">
+        <div className="md:hidden bg-light p-4 flex flex-row-reverse justify-between items-center">
           {/* <img src={logo} alt="Logo" className="w-[15%]" /> */}
           <button
             onClick={() => setIsOpen((prev) => !prev)}
-            className="md:hidden bg-[#303841] h-fit text-white p-2 rounded-lg ease-in-out duration-300 "
+            className="md:hidden bg-bgPrime h-fit text-light p-2 rounded-lg ease-in-out duration-300 "
           >
             {!isOpen ? (
               <FaBars className="h-6 w-6" />
@@ -47,7 +47,7 @@ function NavBar() {
           </button>
         </div>
         {isOpen && (
-          <div className="flex flex-col gap-8 py-10 items-center text-xl bg-[#eee]">
+          <div className="flex flex-col gap-8 py-10 items-center text-xl bg-light">
             <NavLinks closeMenu={closeMenu} />
           </div>
         )}

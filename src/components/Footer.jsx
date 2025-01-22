@@ -12,13 +12,13 @@ export const Footer = () => {
   let currentYear = d.getFullYear();
 
   return (
-    <footer className="items-center bg-[#eee] p-2 mt-6">
+    <footer className="items-center bg-light p-2 mt-6">
       <div className="grid md:grid-cols-3 items-center w-full">
         <div className="">
           <img
             src={logo}
             alt="Logo"
-            className="hidden md:block h-36 md:border-r-4 md:border-red-800 pr-6"
+            className="hidden md:block h-36 md:border-r-4 md:border-innova pr-6"
           />
         </div>
         <div className="mb-2 md:mb-0 md:mt-6 flex gap-2 text-sm items-center justify-center self-end w-full">

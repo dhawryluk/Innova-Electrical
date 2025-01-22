@@ -5,7 +5,7 @@ import redSeal from "../assets/images/images/redSeal.png";
 const About = () => {
   return (
     <>
-      <div className="w-5/6 m-auto py-12 gap-6 text-[#eee] grid lg:grid-cols-2 justify-center ">
+      <div className="w-5/6 m-auto py-12 gap-6 text-light grid lg:grid-cols-2 justify-center ">
         <div className="">
           <h1 className="text-3xl text-center">Who is Innova Electrical?</h1>
           <p className="text-md text-justify p-4">

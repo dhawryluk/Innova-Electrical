@@ -25,7 +25,7 @@ const About = () => {
             excellence extends across both commercial and residential projects.
             Whether designing complex electrical systems for businesses or
             upgrading home wiring, our focus on safety, innovation, and client
-            satisfaction sets them apart. Known for our hands-on approach and
+            satisfaction set us apart. Known for our hands-on approach and
             attention to detail, Innova Electrical ensures every job is
             completed to the highest industry standards. Outside the job site,
             we are passionate about staying at the forefront of electrical

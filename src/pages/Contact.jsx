@@ -73,7 +73,10 @@ const Contact = () => {
           className="bg-bgSecondary rounded-md p-2 min-h-48"
           required
         />
-        <button type="submit" className="p-2 bg-neon rounded-md text-bgPrime">
+        <button
+          type="submit"
+          className="border-2 border-neon py-2 px-4 rounded-md font-bold hover:bg-neon hover:text-black"
+        >
           Send
         </button>
       </form>
@@ -88,7 +91,7 @@ const Contact = () => {
         <h2 className="text-lg font-semibold mb-4">{modalMessage}</h2>
         <button
           onClick={closeModal}
-          className="mt-4 p-2 bg-neon rounded-md text-bgPrime"
+          className="mt-4 border-2 border-bgPrime py-2 px-4 rounded-md font-bold hover:bg-neon hover:text-black bg-bgPrime text-light"
         >
           Close
         </button>

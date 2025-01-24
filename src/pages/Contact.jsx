@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import Modal from "react-modal";
 import logo from "/innova_Revised.svg";
 
-// Set the modal's root element
 Modal.setAppElement("#root");
 
 const Contact = () => {
@@ -15,6 +14,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    console.log("Sending email with data:", form.current);
+
     emailjs
       .sendForm(
         "service_nscsv0b",
@@ -23,12 +24,14 @@ const Contact = () => {
         "VcIB62HdSA8oGv4IJ"
       )
       .then(
-        () => {
+        (result) => {
+          console.log("Email sent successfully:", result.text);
           setModalTitle("Success");
           setModalMessage("Your message was sent successfully!");
           setModalIsOpen(true);
         },
-        () => {
+        (error) => {
+          console.error("Error sending email:", error.text);
           setModalTitle("Error");
           setModalMessage("Failed to send the message. Please try again.");
           setModalIsOpen(true);
@@ -88,10 +91,11 @@ const Contact = () => {
         className="flex flex-col items-center justify-center bg-light rounded-lg shadow-lg max-w-md mx-auto p-4"
         overlayClassName="fixed inset-0 bg-bgSecondary bg-opacity-75 flex items-center justify-center"
       >
-        <h2 className="text-lg font-semibold mb-4">{modalMessage}</h2>
+        <h2 className="text-2xl font-semibold mb-4">{modalTitle}</h2>{" "}
+        <h3 className="text-lg mb-4">{modalMessage}</h3>{" "}
         <button
           onClick={closeModal}
-          className="mt-4 border-2 border-bgPrime py-2 px-4 rounded-md font-bold hover:bg-neon hover:text-black bg-bgPrime text-light"
+          className="mt-4 border-2 border-bgPrime py-2 px-4 rounded-md font-bold hover:bg-light hover:text-bgPrime bg-bgPrime text-light"
         >
           Close
         </button>

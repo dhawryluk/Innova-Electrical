@@ -21,15 +21,15 @@ const About = () => {
             and holder of TSBC - Technical Safety BC{" "}
             <p className="inline-block text-neon">License #LEL0200120</p> Innova
             Electrical combines top-tier credentials with a passion for
-            delivering exceptional electrical services. Their commitment to
+            delivering exceptional electrical services. Our commitment to
             excellence extends across both commercial and residential projects.
             Whether designing complex electrical systems for businesses or
-            upgrading home wiring, their focus on safety, innovation, and client
-            satisfaction sets them apart. Known for their hands-on approach and
+            upgrading home wiring, our focus on safety, innovation, and client
+            satisfaction sets them apart. Known for our hands-on approach and
             attention to detail, Innova Electrical ensures every job is
             completed to the highest industry standards. Outside the job site,
-            they are passionate about staying at the forefront of electrical
-            advancements, regularly updating their skills and certifications to
+            we are passionate about staying at the forefront of electrical
+            advancements, regularly updating our skills and certifications to
             align with evolving technology and regulations. With a proven track
             record and a reputation for reliability, Innova Electrical is
             dedicated to powering success for every client.

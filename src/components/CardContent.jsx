@@ -30,12 +30,12 @@ const CardContent = () => {
             and implementing efficient electrical systems for office complexes,
             retail spaces, industrial facilities, and more. Whether it&apos;s
             wiring for new construction, upgrading outdated systems, or ensuring
-            compliance with the latest safety standards, their meticulous
+            compliance with the latest safety standards, our meticulous
             attention to detail ensures every project is completed on time,
             within budget, and to the highest standards. Renowned for innovative
             problem-solving and commitment to client satisfaction, Innova
             Electrical is the go-to professional for businesses looking to power
-            their success with reliable, state-of-the-art electrical systems.
+            our success with reliable, state-of-the-art electrical systems.
             Partner with Innova Electrical to bring your commercial project to
             life with expertise and excellence.
           </p>
@@ -56,17 +56,17 @@ const CardContent = () => {
             With a passion for creating safe, reliable, and efficient electrical
             systems, Innova Electrical specializes in bringing homes to life
             with tailored solutions that meet the unique needs of every
-            homeowner. From custom lighting designs to complete rewiring, their
+            homeowner. From custom lighting designs to complete rewiring, our
             expertise spans new home construction, renovations, and electrical
             upgrades. Whether it&apos;s installing smart home systems, enhancing
             energy efficiency, or troubleshooting existing issues, Innova
             Electrical delivers top-notch workmanship with a focus on safety and
             quality. With years of experience and a commitment to exceptional
-            customer service, they ensure every project is completed with care
-            and precision, creating homes that are both functional and
-            beautifully lit. Choose Innova Electrical for all your residential
-            electrical needs and experience the difference that expertise and
-            attention to detail can make.
+            customer service, we ensure every project is completed with care and
+            precision, creating homes that are both functional and beautifully
+            lit. Choose Innova Electrical for all your residential electrical
+            needs and experience the difference that expertise and attention to
+            detail can make.
           </p>
         </div>
       </div>

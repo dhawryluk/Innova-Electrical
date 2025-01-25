@@ -1,11 +1,12 @@
-**Design and Development by Derek Hawryluk of DH Media**
+# **Design and Development by Derek Hawryluk of DH Media**
 
-Photo's by:
-Ray Bergmann
-34F Design Inc and Upper Left Photography
+## Photo's by:
+
+- Ray Bergmann of Innova Electrical
+- [34F Design Inc](https://34f.ca/) and [Upper Left Photography](https://www.upperleftphoto.com/)
 
 Resources:
-https://codesandbox.io
-https://react.dev
-https://tailwindcss.com
-https://copilot.microsoft.com
+[CodeSandbox](https://codesandbox.io)
+[React Docs](https://react.dev)
+[Tailwind Docs](https://tailwindcss.com)
+[CoPilot](https://copilot.microsoft.com)
